@@ -17,6 +17,8 @@ function setup() {
 
 function draw() {
   background(0);
+  fill("red");
+  text("Press up arrow key to raise the mask",600,500);
   if(keyDown(UP_ARROW)){
     mask.x=650;
     mask.y=200;
